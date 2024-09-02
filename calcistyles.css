@@ -1,0 +1,81 @@
+body{
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  display: flex;
+}
+
+.calci{
+  border : 2px solid dimgrey;
+  /*border-radius: 15px;*/
+  width: 250px;
+  background-color: dimgrey;
+  padding : 15px;
+  margin-top: 150px;
+  align-items: center;
+  height: 340px;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  gap: 15px;
+}
+
+.b{
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btnop{
+  border: 1px solid hotpink;
+  border-radius: 50%;
+  background-color: hotpink;
+  font-size: 18px;
+  padding :15px;
+  cursor: pointer;
+  transition: backgroung-color 0.2s;
+}
+
+.btnop:hover{
+  background-color: coral;
+}
+
+.b:hover{
+  background-color: darkslategrey;
+}
+
+.bclear{
+  border: 1px solid hotpink;
+  border-radius: 50%;
+  background-color: hotpink;
+  font-size: 18px;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.bclear:hover{
+  background-color: coral;
+}
+
+#display{
+  height: 30px;
+  width: 225px;
+  color: white;
+  background-color:black;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: right;
+  font-size: 25px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
